@@ -1,0 +1,19 @@
+{
+  "name": "fresh-supply-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --delay 1000ms ./src/app.js"
+  },
+  "author": "luo",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
